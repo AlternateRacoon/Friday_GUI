@@ -56,7 +56,7 @@ def speechtext():
         speechtext()
 
     return command
-# this search's the wikipedia for a word
+# this search's the wikipedia for a specific word
 def searchwiki(srch):
     search = wikipedia.summary(srch, sentences=1)
     print(search)
